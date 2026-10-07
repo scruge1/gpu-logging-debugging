@@ -1,9 +1,9 @@
-# RTX 3090 warranty qualification prompt
+# GPU logging and debugging
 
-[Read or copy the standalone agent prompt](MICHAEL-AGENT-PROMPT.md).
+[Read or copy the standalone agent prompt](AGENT-PROMPT.md).
 
-Give the complete prompt to the agent helping with the used RTX 3090. It combines the requested diagnostic sequence with lessons recovered from earlier multi-3090 work: concrete NVIDIA commands, telemetry and crash capture, stock-state checks, VRAM tool/device traps, workload coverage, controlled comparisons and evidence reporting.
+Give the complete prompt to the agent investigating the user's RTX 3090 crashes. It adds concrete NVIDIA commands and lessons recovered from earlier multi-GPU work: durable telemetry, crash and OS-event capture, stock-state verification, VRAM device/tool traps, workload coverage, repeatability, power comparison and controlled platform isolation.
 
-Historical measurements are labelled as observations, not universal pass thresholds or results for this card. Missing evidence stays explicit. Physical concerns can justify contacting the seller before load testing. This is warranty qualification; no invasive repair is part of the prompt.
+Historical measurements are observations, not universal pass thresholds or results for the user's card. Missing evidence stays explicit. The output is a compact technical report with the smallest useful next debugging step.
 
-The handoff is documentation only. No custom runner, installed service, GPU binary, private logs or access to the original machines is required.
+Documentation only: no custom runner, service, GPU binary, private logs or access to the original machines is required.
